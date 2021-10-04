@@ -64,4 +64,18 @@ OLAP:
  Possibilita histórico de consultas;
  Armazenamento em DW;
  Dados históricos e não voláteis.
+
+Redundância:
+ Redundância boa (cópias, backups de dados);
+ Redundância ruim (grande número desnecessário de dados).
+Um SGBD deve permitir a redundância controlada.
+
+Política de Backup:
+ 1. Responsabilidades: quem fará o backup? Quem terá acesso ao backup?
+ 2. Meios: como será o realizado o backup? Qual mídia ou nuvem? Qual software? Qual hardware?
+ 3. Período: qual o intervalo dos backups?
+ 4. Retenção: quanto tempo o backup deve ficar armazenado na mesma mídia?
+ 5. Armazenamento: onde serão armazenados?
+
+Proteção de SGBD;
 */
